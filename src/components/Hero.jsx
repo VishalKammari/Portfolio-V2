@@ -18,7 +18,7 @@ const Hero = () => {
       transition={{ duration: 0.8 }}
       className="w-full px-4 sm:px-6 md:px-10 py-6 sm:py-8 flex flex-col scroll-mt-24 sm:scroll-mt-28"
     >
-      <div className="flex flex-row justify-between ">
+      <div className="flex flex-row justify-between items-center">
       <motion.h1
         initial={{ opacity: 0, x: -20 }}
         animate={{ opacity: 1, x: 0 }}
