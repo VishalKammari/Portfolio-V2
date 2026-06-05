@@ -8,7 +8,7 @@ import { FaLinkedin } from "react-icons/fa";
 import Name from './Name'
 import Age from "./Age";
 import Coinflip from "./Coinflip";
-
+import Visitorcounter from "./Visitorcounter";
 const Hero = () => {
   return (
     <motion.div
@@ -18,6 +18,7 @@ const Hero = () => {
       transition={{ duration: 0.8 }}
       className="w-full px-4 sm:px-6 md:px-10 py-6 sm:py-8 flex flex-col scroll-mt-24 sm:scroll-mt-28"
     >
+      <div className="flex flex-row justify-between ">
       <motion.h1
         initial={{ opacity: 0, x: -20 }}
         animate={{ opacity: 1, x: 0 }}
@@ -26,6 +27,10 @@ const Hero = () => {
       >
         Hey There, I'm
       </motion.h1>
+      <div>
+        <Visitorcounter />
+      </div>
+      </div>
 
       <div className="flex flex-col lg:flex-row lg:justify-between lg:items-center gap-8">
         <div className="flex flex-col gap-4 sm:gap-5 max-w-xl">
