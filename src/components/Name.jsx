@@ -35,7 +35,7 @@ export default function Name({
   }, [text, speed]);
 
   return (
-    <div className="text-5xl md:text-6xl instrument-serif-regular font-bold leading-none break-words">
+    <div className="text-5xl md:text-6xl mt-6 instrument-serif-regular font-bold leading-none break-words">
       {display}
     </div>
   );
