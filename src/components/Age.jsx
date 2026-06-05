@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
-import Typerighter from "./Typerighter";
+import TypeWriter from "./TypeWriter";
 
 export default function Age() {
-  const startDate = new Date("2005-2-21"); // replace with your DOB
+  const startDate = new Date("2005-2-21");
 
   const [age, setAge] = useState("");
 
@@ -27,7 +27,7 @@ export default function Age() {
     <div className="text-zinc-500 text-lg pl-1 flex gap-1.5">
       i'm {age} year old 
       <div>
-      <Typerighter />
+      <TypeWriter />
       </div>
     </div>
   );

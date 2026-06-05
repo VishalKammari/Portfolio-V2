@@ -1,6 +1,6 @@
 import React from 'react'
 import Typewriter from 'typewriter-effect';
-const Typerighter = () => {
+const TypeWriter = () => {
   return (
     <div className="text-zinc-700 bg-amber-200 text-md">
         <Typewriter

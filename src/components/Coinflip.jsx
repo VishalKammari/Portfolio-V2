@@ -9,7 +9,6 @@ export default function Coinflip() {
         style={{ transformStyle: "preserve-3d" }}
         className="relative w-25 h-25 md:w-[160px] md:h-[160px] sm:w-[200px] sm:h-[200px] cursor-pointer"
       >
-        {/* Front Side */}
         <div
           style={{ backfaceVisibility: "hidden" }}
           className="absolute inset-0"
