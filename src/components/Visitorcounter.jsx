@@ -10,7 +10,7 @@ export default function VisitorCounter() {
   }, []);
 
   return (  
-    <div className="text-zinc-600 dark:text-zinc-400 mt-4 leading-relaxed max-w-2xl">
+    <div className="text-zinc-600 dark:text-zinc-400 leading-relaxed max-w-2xl">
        You are #{count.toLocaleString()}th visitor
     </div>
   );
