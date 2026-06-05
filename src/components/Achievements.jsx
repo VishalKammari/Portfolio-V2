@@ -62,7 +62,7 @@ const Achievements = () => {
         transition={{ duration: 0.6 }}
         className="text-3xl  mb-10"
       >
-        Achievements.
+        Achievements
       </motion.h2>
 
       <motion.div

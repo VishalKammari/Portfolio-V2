@@ -11,7 +11,6 @@ const Ending = () => {
   return (
     <section className="w-full px-8 md:px-12 py-14 flex flex-col items-center text-center">
       
-      {/* Bottom -> Top */}
       <motion.h2
         initial={{ opacity: 0, y: 40 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -22,7 +21,6 @@ const Ending = () => {
         Let's work together.
       </motion.h2>
 
-      {/* Left -> Right */}
       <motion.p
         initial={{ opacity: 0, x: -50 }}
         whileInView={{ opacity: 1, x: 0 }}
@@ -35,7 +33,6 @@ const Ending = () => {
         to chat about tech, I'd love to hear from you.
       </motion.p>
 
-      {/* Bottom -> Top */}
       <motion.a
         href="mailto:vishalkammari2102@gmail.com"
         initial={{ opacity: 0, y: 30 }}
@@ -53,7 +50,6 @@ const Ending = () => {
         Get in touch
       </motion.a>
 
-      {/* Right -> Left */}
       <motion.div
         initial="hidden"
         whileInView="visible"

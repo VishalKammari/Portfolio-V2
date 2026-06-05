@@ -43,7 +43,6 @@ const educationVariants = {
 const Education = () => {
   return (
     <section className="w-full px-8 md:px-12 py-10">
-      {/* Heading: Bottom → Top */}
       <motion.h2
         initial={{ opacity: 0, y: 40 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -51,10 +50,9 @@ const Education = () => {
         transition={{ duration: 0.6 }}
         className="text-3xl mb-10"
       >
-        Education.
+        Education
       </motion.h2>
 
-      {/* Cards: Left → Right */}
       <motion.div
         variants={containerVariants}
         initial="hidden"
