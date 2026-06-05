@@ -59,6 +59,7 @@ const Hero = () => {
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
+              onClick={()=>window.open("https://drive.google.com/file/d/188gWfde1GsNAGFcPeV6fTx2ziwBOFoFo/view?usp=sharing","_blank")}
               className="bg-black dark:bg-zinc-100 text-white dark:text-zinc-950 px-3 py-2 rounded-md font-semibold cursor-pointer"
             >
               Resume
