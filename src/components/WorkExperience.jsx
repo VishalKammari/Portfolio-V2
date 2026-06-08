@@ -16,7 +16,7 @@ const experiences = [
   },
   {
     company: "Swecha",
-    role: "Tech Lead Intern",
+    role: "Frontend dev Intern",
     duration: "Jan 2025 – Apr 2025",
     description:
       "Developed and maintained responsive frontend interfaces using React and TailwindCSS. Integrated REST APIs and improved application performance across devices.",
