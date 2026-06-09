@@ -4,7 +4,7 @@ const CHARS = "!<>-_\\/[]{}—=+*^?#________";
 
 export default function Name({
   text = "Vishal Kammari",
-  speed = 17,
+  speed = 30,
 }) {
   const [display, setDisplay] = useState("");
 
